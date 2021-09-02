@@ -29,8 +29,12 @@ header {
     font-weight: bold;
     text-decoration: none;
   }
-  nav a:hover {
-    color: white;
+  nav a:visited {
+    color: rgb(187, 181, 181);
+  }
+  nav a:focus{
+    outline: none;
+  border-color: rgb(7, 64, 252);
   }
   img {
       height: 200px;
@@ -51,7 +55,8 @@ header {
     right: 32px;
   }
   @media screen and (max-width: 768px) {
-    header, main, nav {
+    header, nav a, main  {
+      width:100%;
       flex-direction: column;
     }
   }
