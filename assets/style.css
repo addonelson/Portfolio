@@ -15,6 +15,7 @@ header {
     border-radius: 25px;
     box-shadow: 10px 10px 15px rgb(7, 64, 252);
   }
+  
   h1{
     text-shadow: -1px 0 10px rgb(7, 64, 252), 0 1px rgb(7, 64, 252), 1px 0 rgb(7, 64, 252), 0 -1px rgb(7, 64, 252);
   }
@@ -59,9 +60,24 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 1%;
-    color: white;
+    color: rgb(7, 64, 252);
     height: 60px;
   }
+  p {
+    width:500px;
+    justify-content:right;
+    position:relative;
+    left:400px;
+  }
+  main ul{
+    display:inline-flex;
+    list-style-type: none;
+    width:500px;
+    justify-content:right;
+    position:relative;
+    left:400px;
+  }
+  
   @media screen and (max-width: 768px) {
     header, nav a, main  {
       width:100%;
