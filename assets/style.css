@@ -54,6 +54,14 @@ header {
     bottom: 16px;
     right: 32px;
   }
+  #about{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+    color: white;
+    height: 60px;
+  }
   @media screen and (max-width: 768px) {
     header, nav a, main  {
       width:100%;
