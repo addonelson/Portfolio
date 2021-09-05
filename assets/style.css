@@ -161,11 +161,39 @@ header {
     right: 20px;
     top:300px;
     }
-  
-  }
-  @media screen and (max-width: 768px) {
     #about, #work, #contact {
       width:10%;
       flex-direction: column;
     }
+  
   }
+  
+  @media screen and (max-width: 411px) {
+    header, nav a, main{
+      width:175%;
+      flex-direction: column;
+    }
+    .vl, .vl2, .vl3 {
+      position:relative;
+      left:100px;
+    }
+    p{
+      position:relative;
+      left:158px;
+      bottom:90px;
+    }
+    aside a {
+    position:relative;
+    right: 20px;
+    top:100px;
+    }
+    main ul{
+      position:relative;
+      left: 600px;
+      bottom:300px;
+    }
+    
+    
+  
+  }
+  
