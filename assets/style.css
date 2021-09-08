@@ -182,10 +182,18 @@ header {
       left:158px;
       bottom:90px;
     }
-    aside a {
+    aside img {
     position:relative;
     right: 20px;
-    top:100px;
+    bottom: 225px;
+    width: 200px;;
+    height: 200px;
+    padding:0px;
+
+    }
+    #code, #portfolio{
+      bottom: 200px;
+      right: 80px;
     }
     main ul{
       position:relative;
