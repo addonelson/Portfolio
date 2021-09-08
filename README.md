@@ -11,5 +11,5 @@ Attached is a link to the deployed page for easy access. https://addonelson.gith
 Provide instructions and examples for use. Include screenshots as needed.
 To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
     ```md
-    ![alt text](assets/images/Portfolio capture.png)
+    ![alt text](assets/images/Portfolio_capture.png)
     ```
